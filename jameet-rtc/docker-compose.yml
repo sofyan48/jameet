@@ -11,4 +11,4 @@ services:
       - "8089:8089"
       - "10000-10200:10000-10200/udp"
     environment:
-      - DOCKER_IP=0.0.0.0
+      - DOCKER_IP=127.0.0.1
